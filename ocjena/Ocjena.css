@@ -1,21 +1,61 @@
 .ocjena_title {
-    color: green;
-    background-color: white;
-    font-size: 1000%;
+    color: white;
+    background-color: purple;
+    font-size: 500%;
     font-weight: bold;
     margin: 0 auto;
     padding: 10px;
     text-align: center;
     text-align: top;
-    mix-blend-mode: soft-light;
+    mix-blend-mode: color-dodge;
 }
 .background_image {
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: cover;
     image-rendering: optimizeQuality;
-    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.pJBA2Sm9q17EYDEXELqrXAHaFS%26pid%3DApi&f=1&ipt=72b7f6c1a71bb0ac84f625868d88c0dfcb0de96847b8e02a516e7b93d7d20771&ipo=images);
+    background-image: url(https://chamberlainobservatory.com/wp-content/uploads/2020/01/20200101-NGC1499-California-Nebula-SHO-2048x1526.jpg);
+}
+.background_image2 {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yWjm4RoGv1GzKoHqyg9QUAHaD-%26pid%3DApi&f=1&ipt=0c0d709c350d846e4c632d6bb5c191127bec3ea7342f561372ddc1f8e3427090&ipo=images);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    image-rendering: optimizeQuality;
 }
 .background {
-    background-color: wheat;
+    background-color: black;
+}
+.linkovi1{
+    font-size: x-large;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.linkovi2{
+    font-size: x-large;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 25px;
+}
+.linkovi3{
+    font-size: x-large;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 25px;
+}
+
+.linkovi1:hover{
+    color: red;
+}
+.linkovi2:hover{
+    color: blue;
+}
+.sateliti{
+    color: white;
+    font-size: large;
+    margin: 3px;
+    border: 1px;
+    text-align: center;
+    
 }
