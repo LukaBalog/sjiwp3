@@ -40,9 +40,13 @@
 }
 .linkovi3{
     font-size: x-large;
-    color: black;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 25px;
+    
+}
+.linkovi3:hover{
+    color: green;
 }
 
 .linkovi1:hover{
@@ -58,4 +62,40 @@
     border: 1px;
     text-align: center;
     
+}
+.svemirska {
+    color: lightblue;
+    font-size: large;
+    margin: 3px;
+    border: 1px;
+    text-align: center;
+    background-color: blue;
+}
+
+.svemirska_bg {
+    background-image: url(https://www.nisenet.org/sites/default/files/styles/product_full_large_cropped/public/2021-06/space%20guess%20quest%20game%20board.jpg?h=1ef8b317&itok=6tbCT7Ea);
+    background-size: cover;
+}
+.planeti{
+    margin: 3px;
+    color: white;
+    font-size: large;
+    border: 1px;
+}
+.planeti_bg{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-cytURmCgsA4fJGctrb9vWELVJwM1keEC4Q&s);
+    background-size: cover;
+}
+.back{
+    font-size: large;
+    color: blue;
+}
+.zvijezde_bg{
+    background-image: url(https://www.quantamagazine.org/wp-content/uploads/2018/07/SolarFull_SeanDoran_2880FullwidthLede.jpg);
+    background-size: cover;
+}
+.zvijezde{
+    font-size: large;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
